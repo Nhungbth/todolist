@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  min-height: 100vh;
+
+}
+.new-task {
+  flex: 2.75;
+  min-height: 100vh;
+  border-right: 1px solid black;
+}
+
+.todo-list {
+  flex: 3;
+  min-height: 100vh;
+
+}
+
+
+
+

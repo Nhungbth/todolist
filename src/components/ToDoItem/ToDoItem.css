@@ -1,0 +1,42 @@
+.todo-item {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.box-todo {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    border-bottom:  1px solid black;
+}
+
+.check-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 3;
+}
+
+.btn{
+    display: flex;
+    flex: 1.5;
+    justify-content: flex-end;
+    padding: 10px 0px;
+}
+
+#btn-detail {
+    background: #00BCD4;
+    color: white;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 0;
+    flex:1;
+}
+
+#btn-remove {
+    flex:1;
+    background: #D95350;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
