@@ -7,7 +7,7 @@ import ToDoItem from '../ToDoItem';
 
 const ToDoList = (props) => {
 
-    const [selected, setSelected] = useState();
+    const [selected, setSelected] = useState(true);
 
     const renderListTask = () => {
         return <div>
